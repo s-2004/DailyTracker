@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Journaling Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    .journal-entry {
+      margin-bottom: 20px;
+    }
+    
+    .entry-title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+    .entry-date {
+      color: #888;
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+    
+    .entry-content {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Journal</h1>
+  
+  <div class="journal-entry">
+    <h2 class="entry-title">Entry Title 1</h2>
+    <p class="entry-date">June 1, 2023</p>
+    <p class="entry-content">This is my first journal entry. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet massa vitae leo vehicula, a accumsan lectus facilisis. Nulla facilisi.</p>
+  </div>
+  
+  <div class="journal-entry">
+    <h2 class="entry-title">Entry Title 2</h2>
+    <p class="entry-date">June 2, 2023</p>
+    <p class="entry-content">This is my second journal entry. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet massa vitae leo vehicula, a accumsan lectus facilisis. Nulla facilisi.</p>
+  </div>
+  
+  <div class="journal-entry">
+    <h2 class="entry-title">Entry Title 3</h2>
+    <p class="entry-date">June 3, 2023</p>
+    <p class="entry-content">This is my third journal entry. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque aliquet massa vitae leo vehicula, a accumsan lectus facilisis. Nulla facilisi.</p>
+  </div>
+</body>
+</html>
